@@ -1,0 +1,11 @@
+Heur_alternate:
+1. #first set up heur to L distance
+2. #if the state is a dead state, then return infinite directly
+3. #if there is no more xanadus in the state, then return 0 
+4. #check if there are four robots blocking the escape hatch. move + 1
+5. #check if there is a robots standing on the escape hatch. move + 1
+6. #if there only need one more step to win, check no blocking then return a small value
+7. #check if there is a robot block the way. move + 1
+8. #check if no robots be in the same row or coloum with the xanadus. move + 1
+
+
